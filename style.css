@@ -1,0 +1,68 @@
+:root{
+    --main-color: rgb(218, 194, 164);
+}
+
+
+body{
+    background-color: var(--main-color);
+    font-family: 'Gentium Plus', 'Roboto', sans-serif;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+
+.BGPicture{
+ position: relative;
+ width: 40vw;
+ height: 100vh;
+ z-index: -1;
+ margin: 0;
+}
+
+.corgiBG{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.logoBody{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: black;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.logo{
+    position: absolute;
+}
+
+.corgi-pic{
+    height: 50px;
+    width: 50px;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    
+}
+.signUpText{
+    height: 35vh;
+}
+.signUpForm{
+    background-color: beige;
+    height: 30vh;
+}
+.signUpFinal{
+    height: 35vh;
+}
+
+.logInLink{
+    color: brown;
+    text-decoration: none;
+}
