@@ -1,5 +1,6 @@
 :root{
     --main-color: rgb(218, 194, 164);
+    overflow: hidden;
 }
 
 
@@ -13,6 +14,8 @@ body{
 }
 
 .BGPicture{
+ display: flex;
+ 
  position: relative;
  width: 40vw;
  height: 100vh;
@@ -26,43 +29,54 @@ body{
     height: 100%;
 }
 
-.logoBody{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    background: black;
-    opacity: 0.6;
-    text-align: center;
-    font-size: 1.2em;
-    
-}
 
 .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    background: black;
+    color: beige;
+    opacity: .5;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 63vh;
 }
 
-.corgi-pic{
-    height: 50px;
-    width: 50px;
+.odin-pic{
+    height: 125px;
+    width: 100px;
 }
-
+.credit{
+    position: absolute;
+    bottom:0px;
+    margin: 0px;
+    opacity: .8;
+    font-size: .8rem;
+}
 .signUp{
     display: flex;
     flex-direction: column;
+    width: 60vw;
     
 }
 .signUpText{
-    height: 35vh;
+    height: 33vh;
 }
 .signUpForm{
     background-color: beige;
     height: 30vh;
 }
 .signUpFinal{
-    height: 35vh;
+    height: 33vh;
 }
 
 .logInLink{
     color: brown;
     text-decoration: none;
+}
+
+.myGithub{
+    height: 4vh;
 }
