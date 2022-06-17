@@ -13,6 +13,7 @@
 <body>
     
     <div class="container">
+        <!-- Left Side of Page with Background and Logo-->
         <div class="BGPicture"> 
             <img class="corgiBG" src="corgi.jpg" alt="big corgi background">
                 <div class="logo">
@@ -22,23 +23,70 @@
             <p class="credit"> Photo by <a href="https://unsplash.com/@coleito">Cole Keister</a>
                  on <a href="https://unsplash.com">Unspash</a> </p>
         </div>
+
+        <!-- Right side of page with the text, form and button for signing up-->
         <div class="signUp">
+
             <div class="signUpText">
+                <div class="fakeText">
                 <h2> This is not a real online service! Its a fake sign-up for some kind
-                    of corgi website! Sign up <em>now</em> to get started
+                    of corgi website. You know you need something like this in you life! Sign up <em>now</em> to get started.
                 </h2>
                 <h2>You know <em>you</em> want to!</h2>
             </div>
-            <div class="signUpForm">
-                <p>tahoo</p>
             </div>
+
+            <div class="formSection">
+                <h2 class="shoutSignUp">Let's Sign-Up!</h2>
+                
+                <form id="signupForm" action method="post">
+                    <div class="block">
+                        <div class="labelCase">
+                            <label for="first_name">First Name<br></label>
+                            <input type="text" id="first_name" name="first_name" placeholder="John" required>
+                        </div>
+                        <div class="labelCase">
+                            <label for="last_name">Last Name<br></label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="labelCase">
+                            <label for="email">Email<br></label>
+                            <input type="email" id="email" name="email" placeholder="something@something.com"
+                             required>
+                        </div>
+                        <div class="labelCase">
+                            <label for="phone_number">Phone Number<br></label>
+                            <input type="tel" id="phone_number" name="phone_number" placeholder="###-###-####" required>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="labelCase">
+                            <label for="password">Password<br></label>
+                            <input type="password" id="password" name="password" placeholder="*****" required>
+                        </div>
+                        <div class="labelCase">
+                            <label for="confirmpassword">Confirm Password<br></label>
+                            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="*****" required>
+                        </div>
+                    
+                    </div>
+                </form>
+            
+            </div>
+
             <div class="signUpFinal">
-                <button>Create Account</button>
-                <h4>Already have an account? <a class = "logInLink" href="#">Log in!</a></h4>
+                <button class="signupButton" type ="submit" form="signupForm">Create Account!</button>
+                <h3 class="accountAsk">Already have an account? <a class = "logInLink" href="#">Log in!</a></h3>
             </div>
+
             <div class="myGithub">
                 <p> Built By <a href="https://github.com/SwartzJonah">Jonah Swartz</a></p>
             </div>
+
         </div>
     </div>
 </body>
