@@ -6,8 +6,6 @@
     font-size: 1rem; 
 }
 
-
-
 :focus-visible{
     outline: 0;
 }
@@ -17,11 +15,13 @@ body{
     font-family: 'Gentium Plus', sans-serif;;
     margin: 0px;
 }
+
 .container{
     display: flex;
 }
 
 /* style for the left side of page */
+
 .BGPicture{
  display: flex;
  position: relative;
@@ -86,6 +86,7 @@ body{
     background-color: var(--off-color);
     height: 30vh;
 }
+
 .shoutSignUp{
     margin-left: 3vw;
 }
@@ -166,7 +167,6 @@ label{
     border-radius: 12px;
     border: 0px;
     transition-duration: 0.4s;
-    
 }
 
 

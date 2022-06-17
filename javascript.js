@@ -1,10 +1,6 @@
-
 const form  = document.getElementById('signupForm');
 let password = document.getElementById("password").value;
 let confirmpassword = document.getElementById("confirmpassword").value;
-
-
-
 
 form.addEventListener('submit',function (event) {
     password = document.getElementById("password").value;
