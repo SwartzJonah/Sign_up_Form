@@ -108,6 +108,7 @@ form button, input, select, textarea {
     width : 80%;
     padding: 0;
 }
+
 input, textarea {
     font-family: 'Gentium Plus', sans-serif;
     -webkit-appearance: none;
@@ -118,15 +119,17 @@ input, textarea {
     margin  :0;
     width   : 80%;
     background : none;
-    
-  }
+}
 
-  input:focus, textarea:focus {
+input:focus, textarea:focus {
     background   : var(--hover-color);
     border: 1px solid blue;
     box-shadow: 3px 3px gray;
-  }
+}
 
+input:required:focus:invalid {
+    border: 1px solid red;
+}
 
 label{
     font-size: 1rem;
@@ -135,7 +138,7 @@ label{
 
 .labelCase{
     width:25vw;
-    margin:8px;
+    margin-top:8px;
 }
 
 .block{
@@ -150,7 +153,7 @@ label{
 
 .signupButton{
     cursor: pointer;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-top: 4vh;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -177,7 +180,7 @@ button:active{
 }
 
 .accountAsk{
-    margin-left: 4vw;
+    margin-left: 3vw;
     
 }
 
